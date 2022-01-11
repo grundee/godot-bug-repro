@@ -1,0 +1,31 @@
+[config]
+name="AppodealExample"
+binary="bin/libappodeal-example.arm64-iphone.debug.a"
+
+initialization="godot_appodeal_example_init"
+deinitialization="godot_appodeal_example_deinit"
+
+[dependencies]
+linked=[
+    "Deps/Appodeal.xcframework",
+    "Deps/AppodealMediationCoreObjC.xcframework",
+    "Deps/Protobuf.xcframework",
+    "Deps/StackAPI.xcframework",
+    "Deps/StackAnalytics.xcframework",
+    "Deps/StackCrashReporter.xcframework",
+    "Deps/StackFoundation.xcframework",
+    "Deps/StackIABAssets.framework",
+    "Deps/StackMRAIDKit.framework",
+    "Deps/StackModules.xcframework",
+    "Deps/StackNASTKit.framework",
+    "Deps/StackOpenMeasure.framework",
+    "Deps/StackProductPresentation.xcframework",
+    "Deps/StackRichMedia.framework",
+    "Deps/StackUIKit.xcframework",
+    "Deps/StackVASTAssets.framework",
+    "Deps/StackVASTKit.framework",
+    "Deps/StackVideoPlayer.framework",
+    "Deps/StackXML.framework",
+    "Deps/nanopb.xcframework",
+]
+embedded=[]
