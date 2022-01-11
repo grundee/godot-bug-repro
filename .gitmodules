@@ -1,0 +1,4 @@
+[submodule "ios/plugins/AppodealExample/godot"]
+	path = ios/plugins/AppodealExample/godot
+	url = https://github.com/godotengine/godot.git
+	branch = 3.4
